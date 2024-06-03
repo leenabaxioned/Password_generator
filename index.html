@@ -40,6 +40,67 @@
       <!--header section start-->
       <!--main section start-->
       <main>
+        <section class="main">
+          <div class="wrapper">
+            <div class="box">
+              <h1>Password Generator</h1>
+              <div class="row-inputbox">
+                <span id="pass-box">Testing</span>
+                <span class="material-icons" id="copyIcon">content_copy</span>
+              </div>
+              <div class="row">
+                <label for="password-length">
+                  <div class="left">Password Length</div>
+                </label>
+                <div class="right password-length">
+                  <input
+                    type="number"
+                    name=""
+                    id="total-char"
+                    max="30"
+                    min="2"
+                    value="10"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <label for="upper-case">
+                  <div class="left">Includes uppercase letters</div>
+                </label>
+                <div class="right">
+                  <input type="checkbox" name="" id="upper-case" checked />
+                </div>
+              </div>
+              <div class="row">
+                <label for="lower-case">
+                  <div class="left">Includes lowercase letters</div>
+                </label>
+                <div class="right">
+                  <input type="checkbox" name="" id="lower-case" />
+                </div>
+              </div>
+              <div class="row">
+                <label for="numbers">
+                  <div class="left">Includes numbers</div>
+                </label>
+                <div class="right">
+                  <input type="checkbox" name="" id="numbers" />
+                </div>
+              </div>
+              <div class="row">
+                <label for="symbols">
+                  <div class="left">Includes Symbols</div>
+                </label>
+                <div class="right">
+                  <input type="checkbox" name="" id="symbols" />
+                </div>
+              </div>
+              <div class="row">
+                <button type="button" id="btn">Generate Password</button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <!--main section end-->
       <!--footer section start-->
