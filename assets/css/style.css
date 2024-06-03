@@ -114,7 +114,88 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+input:focus-visible {
+  outline: 0;
+}
 
+h1 {
+  padding: 20px 5px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main {
+  background-color: #332E88;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.box {
+  padding: 10px 15px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+  background: rgba(8, 8, 8, 0.5);
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+#pass-box {
+  display: block;
+  padding: 10px;
+  background-color: #13102f;
+  color: #fff;
+  font-size: 16px;
+}
+
+.row-inputbox { position: relative; }
+
+#copyIcon {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  display: flex;
+  text-indent: -9999px;
+}
+
+#copyIcon::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0c5";
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #332E88;
+  font-size: 20px;
+  text-indent: 0;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 15px;
+}
+
+label {
+  font-size: 15px;
+  user-select: none;
+}
+
+#btn {
+  width: 100%;
+  font-size: 15px;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  background-color: #332E88;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#total-char { width: 80%; }
+.password-length { width: 16%; }
 /*=================================
   main styling ends here
 =================================*/
